@@ -19,10 +19,6 @@ public class ConsoleUI {
 
     public void start() {
 
-        // s out (choose a language) 1-english, 2-russian
-        // make a variable to save the answer
-        // make a list of strings for english and one for russian
-
         System.out.println("Добро пожаловать! Выберите действие:"); // chosen[0]
         while (true) {
             System.out.println("1. Регистрация");
