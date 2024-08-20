@@ -10,6 +10,7 @@ public class ConsoleUI {
     private final AuthService authService;
     private final Scanner scanner;
 
+
     public ConsoleUI(RegistrationService registrationService, AuthService authService) {
         this.registrationService = registrationService;
         this.authService = authService;
@@ -17,7 +18,12 @@ public class ConsoleUI {
     }
 
     public void start() {
-        System.out.println("Добро пожаловать! Выберите действие:");
+
+        // s out (choose a language) 1-english, 2-russian
+        // make a variable to save the answer
+        // make a list of strings for english and one for russian
+
+        System.out.println("Добро пожаловать! Выберите действие:"); // chosen[0]
         while (true) {
             System.out.println("1. Регистрация");
             System.out.println("2. Авторизация");
